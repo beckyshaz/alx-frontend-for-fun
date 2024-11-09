@@ -51,7 +51,12 @@ select
     {text-transform:none}
 [type=button],
     [type=reset],[type=submit],
+<<<<<<< HEAD
     button{-webkit-appearance:button}
+=======
+button
+{-webkit-appearance:button}
+>>>>>>> 82e5fcf33ca172f3f5232ecc2ee69a6decb41284
     [type=button]::-moz-focus-inner,
     [type=reset]::-moz-focus-inner,
     [type=submit]::-moz-focus-inner,
@@ -156,9 +161,17 @@ var
     uppercase;
         --section-tagline-color: var
     (--color-primary);
+<<<<<<< HEAD
         --section-tagline-font-family: 
     var(--font-family-headings);
         --section-tagline-font-weight: 
+=======
+        --section-tagline-font-famil
+y: 
+    var(--font-family-headings);
+        --section-tagline-font-weigh
+t: 
+>>>>>>> 82e5fcf33ca172f3f5232ecc2ee69a6decb41284
     var(--font-weight-bold);
         --section-tagline-margin: 0;
         --section-body-padding: 
@@ -208,7 +221,12 @@ none;
     (--font-size-large);
         --button-hover-color: var
     (--color-white);
+<<<<<<< HEAD
         --button-hover-text-decoration: 
+=======
+        --button-hover-text-decorati
+on: 
+>>>>>>> 82e5fcf33ca172f3f5232ecc2ee69a6decb41284
     none;
         --button-hover-background: 
 var
@@ -414,7 +432,12 @@ var
     (--transition-cubic-bezier);
       }
       
+<<<<<<< HEAD
       .nav .nav-item:hover .nav-link::before {
+=======
+      .nav .nav-item:hover .
+nav-link::before {
+>>>>>>> 82e5fcf33ca172f3f5232ecc2ee69a6decb41284
         background-color: var
     (--color-primary);
         width: 100%;
@@ -572,7 +595,12 @@ no-repeat;
         padding: 10rem 4rem;
       }
       
+<<<<<<< HEAD
       .section-hero .section-category {
+=======
+      .section-hero .
+section-category {
+>>>>>>> 82e5fcf33ca172f3f5232ecc2ee69a6decb41284
         color: var(--color-white);
         text-transform: uppercase;
       }
@@ -737,7 +765,12 @@ a::after {
         text-align: center;
       }
       
+<<<<<<< HEAD
       .card-testimonial .card-avatar {
+=======
+      .card-testimonial .
+card-avatar {
+>>>>>>> 82e5fcf33ca172f3f5232ecc2ee69a6decb41284
         border-radius: 50%;
         width: 10rem;
         height: 10rem;
@@ -755,7 +788,12 @@ a::after {
         position: relative;
       }
       
+<<<<<<< HEAD
       .card-testimonial .card-quote::before {
+=======
+      .card-testimonial .
+card-quote::before {
+>>>>>>> 82e5fcf33ca172f3f5232ecc2ee69a6decb41284
         content: '\201C';
         position: absolute;
         top: -4.5rem;
@@ -914,7 +952,12 @@ li:last-child::after {
           padding-left: 7rem;
         }
     
+<<<<<<< HEAD
         .post-comments .section-title {
+=======
+        .post-comments .
+section-title {
+>>>>>>> 82e5fcf33ca172f3f5232ecc2ee69a6decb41284
           font-variant: small-caps;
         }
     
