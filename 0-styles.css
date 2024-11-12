@@ -1,0 +1,38 @@
+body {
+    font-style: Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url("0-sprite.png");
+    background-size: 192px 64px;
+    
+}
+
+.i-html {
+    background-position: 0 0;
+}
+.i-css {
+    background-position: -64 0;
+}
+
+.i-js {
+    background-position: -134 0;
+}
