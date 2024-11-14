@@ -1,0 +1,56 @@
+.toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.toggle-cb {
+    display: none;
+}
+
+.toggle-label {
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 60px;
+    background-color: silver;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    /*transition: background-color 0.3s;*/
+}
+
+.toggle-inner {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    border-radius: 30px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: red;
+}
+
+.toggle-switch {
+    width: 56px; /* Slightly smaller than the height of the toggle */
+    height: 56px;
+    background-color: white;
+    border-radius: 50%; /* Makes it a circle */  
+    position: absolute; 
+    top: 2px; /* Centers the circle vertically */  
+    left: 2px; /* Default position for unchecked state */
+    transition: left 0.3s; /* Smooth transition for the movement */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+.toggle-cb:checked + .toggle-label {
+    background-color: greenyellow;
+}
+
+.toggle-cb:checked + .toggle-label .toggle-switch {
+    left: 42px;
+}
+
+
+.toggle-cb:checked + .toggle-label .toggle-inner {
+    opacity: 1; /* Makes the inner color visible */
+}
