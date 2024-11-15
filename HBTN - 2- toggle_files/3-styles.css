@@ -1,0 +1,34 @@
+body {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    position: relative;
+}
+
+.menu-open {
+    display: none;
+}
+
+.menu-open-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.menu-line {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
