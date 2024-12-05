@@ -1,0 +1,8 @@
+/*selecting first child of a nested class inside body tag*/
+
+body {
+  color: #3D3D3D;
+  & > .red {
+    color: #FF0000;
+  }
+}
