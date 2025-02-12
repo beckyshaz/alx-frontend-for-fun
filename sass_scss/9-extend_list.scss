@@ -1,0 +1,15 @@
+/* sass */
+
+.info {
+  font-size: 12px;
+}
+
+.success {
+  @extend .info; // Inherits font-size: 12px;
+  color: #00FF00;
+}
+
+.warning {
+  @extend .info; // Inherits font-size: 12px;
+  color: #FF0000;
+}
