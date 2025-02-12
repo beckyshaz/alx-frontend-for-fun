@@ -4,12 +4,16 @@
   font-size: 12px;
 }
 
+%extend-info {  // Placeholder selector
+  @extend .info !optional; // Use !optional to prevent errors if .info isn't present
+}
+
 .success {
-  @extend .info; // Inherits font-size: 12px;
+  @extend %extend-info;
   color: #00FF00;
 }
 
 .warning {
-  @extend .info; // Inherits font-size: 12px;
+  @extend %extend-info;
   color: #FF0000;
 }
